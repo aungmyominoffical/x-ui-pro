@@ -158,12 +158,13 @@ if systemctl is-active --quiet x-ui; then
 	UPDATE_XUIDB
 	x-ui restart
 else
-	PANEL=( "https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh"
-			"https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh"
-			"https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh"
-		)
+	# PANEL=( "https://raw.githubusercontent.com/alireza0/x-ui/master/install.sh"
+	# 		"https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh"
+	# 		"https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh"
+	# 	)
 
-	printf 'n\n' | bash <(wget -qO- "${PANEL[$PNLNUM]}")
+	# printf 'n\n' | bash <(wget -qO- "${PANEL[$PNLNUM]}")
+ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v1.7.8
 	UPDATE_XUIDB
 	if ! systemctl is-enabled --quiet x-ui; then
 		systemctl daemon-reload && systemctl enable x-ui.service
