@@ -16,7 +16,7 @@
 **Install X-UI-PRO**:dvd::package:
 
 ```
-sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/GFW4Fun/x-ui-pro/master/x-ui-pro.sh) -install yes -panel 0"
+sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/aungmyominoffical/x-ui-pro/master/x-ui-pro.sh) -install yes -panel 0"
 ```
 > -panel 0>alireza 1>MHSanaei 2>FranzKafkaYu
 > 
@@ -28,17 +28,17 @@ sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/GFW4Fun/x-ui-pro/
 >
 **ADD New Domain**:heavy_plus_sign:	
 ```
-sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/GFW4Fun/x-ui-pro/master/x-ui-pro.sh) -subdomain sub.newdomain.com"
+sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/aungmyominoffical/x-ui-pro/master/x-ui-pro.sh) -subdomain sub.newdomain.com"
 ```
 
 **Random Fake HTMLSite**:earth_asia:	
 ```
-sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/GFW4Fun/x-ui-pro/master/randomfakehtml.sh)"
+sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/aungmyominoffical/x-ui-pro/master/randomfakehtml.sh)"
 ```
 
 **Uninstall X-UI-PRO**:x:
 ```
-sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/GFW4Fun/x-ui-pro/master/x-ui-pro.sh) -uninstall yes"
+sudo su -c "bash <(wget -qO- https://raw.githubusercontent.com/aungmyominoffical/x-ui-pro/master/x-ui-pro.sh) -uninstall yes"
 ```
 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
